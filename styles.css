@@ -134,7 +134,7 @@ footer { text-align: center; padding: 40px; color: var(--azul-oscuro); font-weig
     .nicho {
         padding: 15px; /* Nichos un poco más compactos */
     }
-
+ 
     pre {
         font-size: 0.95rem; /* El texto histórico se leerá mejor */
         padding: 10px;
