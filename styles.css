@@ -109,3 +109,38 @@ pre {
 }
 
 footer { text-align: center; padding: 40px; color: var(--azul-oscuro); font-weight: bold; }
+
+/* Ajustes para dispositivos móviles */
+@media (max-width: 600px) {
+    body {
+        font-size: 1rem; /* Reducimos el tamaño general para móviles */
+    }
+
+    .navbar h1 {
+        font-size: 1.8rem; /* El título del header ya no se cortará */
+    }
+
+    .container {
+        padding: 0 10px; /* Menos margen lateral para aprovechar espacio */
+    }
+
+    /* Solución para la tabla que se sale */
+    .tabla-servicios {
+        display: block;
+        overflow-x: auto; /* Permite deslizar solo la tabla si es muy ancha */
+        white-space: nowrap;
+    }
+
+    .nicho {
+        padding: 15px; /* Nichos un poco más compactos */
+    }
+
+    pre {
+        font-size: 0.95rem; /* El texto histórico se leerá mejor */
+        padding: 10px;
+    }
+
+    .hero {
+        height: 200px; /* Reducimos la altura de la imagen principal */
+    }
+}
