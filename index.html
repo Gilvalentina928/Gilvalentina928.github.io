@@ -282,6 +282,38 @@ Servicios:
             </div>
         </section>
 
+<!-- ================= CONTEXTO TIEMPO (RELOJ Y FECHA) ================= -->
+<div class="contenedor-reloj">
+    <div id="fecha-digital"></div>
+    <div id="reloj-digital">00:00:00</div>
+</div>
+
+<!-- ================= SECCIÓN DE CONTACTO COMUNAL ================= -->
+<section class="seccion-contacto">
+    <h2>Buzón del Consejo Comunal</h2>
+    <p>Envía tus dudas, reportes o sugerencias directamente a los líderes comunitarios.</p>
+    
+    <!-- Usamos Formspree (servicio gratuito) para que el formulario funcione sin backend -->
+    <form action="https://formspree.io/f/TU_CORREO_AQUI" method="POST" class="formulario-comunidad">
+        <div class="grupo-campo">
+            <label for="nombre">Nombre y Apellido:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ej. María Guzmán" required>
+        </div>
+        
+        <div class="grupo-campo">
+            <label for="sector">Sector / Calle:</label>
+            <input type="text" id="sector" name="sector" placeholder="Ej. Los Bloques, Calle Principal" required>
+        </div>
+
+        <div class="grupo-campo">
+            <label for="mensaje">Mensaje o Sugerencia:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe aquí tu mensaje para el consejo comunal..." required></textarea>
+        </div>
+
+        <button type="submit" class="boton-enviar">Enviar Mensaje</button>
+    </form>
+</section>
+		
     </main>
 
     <footer>
