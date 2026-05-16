@@ -144,3 +144,87 @@ footer { text-align: center; padding: 40px; color: var(--azul-oscuro); font-weig
         height: 200px; /* Reducimos la altura de la imagen principal */
     }
 }
+
+/* --- ESTILOS DEL RELOJ DIGITAL --- */
+.contenedor-reloj {
+    background: #1e293b;
+    color: #38bdf8;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 250px;
+    margin: 15px auto;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+#reloj-digital {
+    font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+#fecha-digital {
+    font-size: 0.9rem;
+    color: #94a3b8;
+    margin-bottom: 2px;
+}
+
+/* --- ESTILOS DEL FORMULARIO DE CONTACTO --- */
+.seccion-contacto {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e2e8f0;
+}
+.seccion-contacto h2 {
+    color: #0f172a;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+.seccion-contacto p {
+    color: #64748b;
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+}
+.grupo-campo {
+    margin-bottom: 15px;
+    text-align: left;
+}
+.grupo-campo label {
+    display: block;
+    margin-bottom: 6px;
+    color: #334155;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+.grupo-campo input, .grupo-campo textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 1rem;
+    background: #f8fafc;
+    transition: border-color 0.2s;
+}
+.grupo-campo input:focus, .grupo-campo textarea:focus {
+    outline: none;
+    border-color: #3b82f6;
+    background: #fff;
+}
+.boton-enviar {
+    background: #2563eb;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.2s;
+}
+.boton-enviar:hover {
+    background: #1d4ed8;
+}
