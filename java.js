@@ -48,3 +48,4 @@ document.addEventListener('DOMContentLoaded', () => {
     // Hacer que se ejecute cada 1000 milisegundos (1 segundo)
     setInterval(actualizarReloj, 1000);
 });
+
